@@ -4,7 +4,7 @@ body {
 }
 header {
     background-color: #1f2937;
-    position: fixed;
+    position: relative;
     width: 100%;
     top: 0;
     left: 0;
@@ -20,13 +20,14 @@ a {
 .main-nav-bar {
     padding: 10px 150px;
     justify-content: space-between;
-    display: fixed;
+    display: flex;
 }
 .nav-bar-left {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
     text-align: left;
+    display: flex;
 }
 .nav-bar-right {
     text-align: right;
@@ -35,14 +36,18 @@ a {
     padding-top: 5px;
     padding-bottom: 5px;
     gap: 25px;
-    display: fixed;
+    display: flex;
 }
 .banner-container {
     padding: 130px;
+    padding-right: 0;
+    padding-bottom: 0;
     justify-content: space-between;
-    display: fixed;
+    
 }
-#hero-main-text {
+.banner-main-text p {
+    position: flex;
+    display: flex;
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
@@ -50,13 +55,46 @@ a {
     padding: 0;
     margin: 0;
 }
-#hero-secondary-text {
+.banner-secondary-text p {
+    position: flex;
+    display: flex;
     font-size: 18px;
     color: #e5e7eb;
+    align-items: left;
     text-align: left;
-    padding: 0;
-    margin: 0;
 }
 .banner-button {
-    
+    justify-content: space-between;
+    display: fixed;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    padding: 0;
+    margin-top: 0;
+}
+.sign-up-btn {
+    padding: 8px 24px;
+    margin-top: 5px;
+    background: #3882f6;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f9faf8;
+    justify-content: space-between;
+    align-items: left;
+    display: flex;
+}
+.banner-image {
+    padding: 10px 150px;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+}
+.image-placeholder {
+    position: flex;
+    align-items: right;
+    padding: 100px;
+    margin: 0;
+    background: #e5e7eb;
 }
