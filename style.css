@@ -84,7 +84,7 @@ a {
 .info-container {
     padding: 30px;
     justify-content: center;
-    display: fixed;
+    display: center;
     align-items: center;
 }
 .info-container h1 {
@@ -92,9 +92,61 @@ a {
     font-weight: 900;
     color: #1f2937;
     text-align: center;
+    margin-bottom: 30px;
 }
 .info-container p {
     color: #6d747d;
     font-size: 18px;
-
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.info-container-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 160px);
+    gap: 40px;
+    justify-content: center;
+}
+.info-one {
+    text-align: center;
+}
+.info-box-one {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+    margin: 0 auto 15px;
+}
+.info-two {
+    text-align: center;
+}
+.info-box-two {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+    margin: 0 auto 15px;
+}
+.info-three {
+    text-align: center;
+}
+.info-box-three {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+    margin: 0 auto 15px;
+}
+.info-four {
+    text-align: center;
+}
+.info-box-four {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+    margin: 0 auto 15px;
+}
+.info-container p {
+    font-size: 16px;
 }
