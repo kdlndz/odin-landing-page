@@ -78,5 +78,23 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e5e7eb;
+    background-color: #6d747d;
+    color: #f9faf8;
+}
+.info-container {
+    padding: 30px;
+    justify-content: center;
+    display: fixed;
+    align-items: center;
+}
+.info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+.info-container p {
+    color: #6d747d;
+    font-size: 18px;
+
 }
