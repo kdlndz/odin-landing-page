@@ -82,7 +82,10 @@ a {
     color: #f9faf8;
 }
 .info-container {
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    padding-left: 0;
+    padding-right: 0;
     justify-content: center;
     display: center;
     align-items: center;
@@ -149,4 +152,17 @@ a {
 }
 .info-container p {
     font-size: 16px;
+}
+.quote-container {
+    background-color: #e5e7eb;
+    position: relative;
+    width: 100%;
+}
+.quote-text p {
+    font-size: 36px;
+    padding: 80px;
+    margin: 0 150px;
+    justify-content: center;
+    display: center;
+    text-align: justify;
 }
